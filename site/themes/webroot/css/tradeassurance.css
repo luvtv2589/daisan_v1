@@ -1,0 +1,978 @@
+/*CSS FOR TRADEASSUSANCE*/
+#List-4 {
+	background: #fff;
+}
+
+.List-4 .L-1 {
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .32);
+	position: relative;
+}
+
+.List-4 span.title {
+	line-height: 52px;
+}
+
+.List-4 span.title, #List-4 i.fa {
+	font-size: 20px;
+}
+
+#List-4 .Img-1 {
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+#List-4 .L-2 {
+	position: relative;
+	height: 55px;
+}
+
+#List-4 .L-3 {
+	padding-left: 70px !important;
+	padding-bottom: 15px;
+}
+
+#List-4 .L-2 .name {
+	white-space: nowrap;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+
+.List-5 #fat {
+	background-image:
+		url('http://daisanmart.com/site/themes/webroot/images/img-15.png');
+	width: 100%;
+	height: 580px;
+}
+
+.List-5 .L-1 .wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	padding-top: 116px;
+	padding-left: 15px;
+}
+
+.List-5 .tit {
+	margin-bottom: 5px;
+	font-size: 28px;
+	line-height: 43px;
+}
+
+.List-5 .tit-1 {
+	width: 500px;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 300;
+}
+
+.List-5 .nav-link.active {
+	color: #FF6A00 !important;
+	background-color: transparent;
+}
+
+.List-5 .nav-link {
+	transition: all .4s cubic-bezier(.23, 1, .32, 1);
+}
+
+.List-5  .tit-2 {
+	width: 580px;
+	margin: 20px 0 40px;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.btn-custom-5 {
+	line-height: 40px;
+	text-align: center;
+	border-radius: 30px;
+	cursor: pointer;
+	color: #333;
+	background-color: #FFF;
+	transition: background-color .5s ease-out;
+	border: 1px solid #FFF;
+}
+
+.btn-custom-5:hover {
+	background: transparent;
+	color: #fff;
+}
+
+.List-5 #navbar-example3 .nav-link {
+	height: 44px;
+	padding: 0 20px;
+	font-size: 18px;
+	line-height: 50px;
+	color: #333;
+}
+
+.List-5 .SS-1 {
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 40px;
+	margin: 0 100px 37px 0;
+}
+
+.List-5 .SS-2 {
+	color: #666;
+	line-height: 22px;
+}
+
+.btn-custom-6 {
+	display: inline-block;
+	box-sizing: border-box;
+	margin-right: 20px;
+	color: #666;
+	font-size: 16px;
+	line-height: 38px;
+	background-color: #FFF;
+	border: 2px solid #333;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.List-5 .list-img {
+	position: relative;
+}
+
+.List-5 #fat-1 .img-1 {
+	position: relative;
+	left: 85px;
+	top: 75px;
+	z-index: 5;
+}
+
+.List-5 #fat-1 .img-2 {
+	position: relative;
+	left: -120px;
+	top: 75px;
+	transform: translate(119px, 52px);
+	z-index: 4;
+}
+
+.List-5 #fat-1 .img-3 {
+	position: relative;
+	left: 95px;
+	top: -55px;
+	transform: translate(240px, 95px);
+	z-index: 3
+}
+
+.List-5 #fat-1 .img-4 {
+	position: absolute;
+	right: 15px;
+	top: -7px;
+	animation-duration: 3s;
+	animation-delay: .75s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: .75s;
+}
+
+.List-5 #fat-1 .img-5 {
+	position: absolute;
+	right: 125px;
+	z-index: 6;
+	top: 100px;
+	animation-duration: 2.5s;
+	animation-delay: 1s;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 1s;
+}
+
+.List-5 .img-6 {
+	position: relative;
+	bottom: -56px;
+	left: 0px;
+	animation-duration: 2.5s;
+	animation-delay: .75s;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: .75s;
+}
+
+.List-5 .img-7 {
+	position: relative;
+	bottom: 28px;
+	left: -35px;
+	animation-duration: 2.5s;
+	animation-delay: .75s;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: .75s;
+}
+
+.List-5 #fat-1 {
+	padding-bottom: 80px !important;
+}
+
+.List-5 .img-8 {
+	position: relative;
+	top: -85px;
+	left: 76px;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1s;
+}
+
+.List-5 #fat-2 .SS-2 {
+	width: 285px;
+	margin-bottom: 25px;
+	font-size: 22px;
+	line-height: 25px;
+}
+
+#List-6 span.title {
+	line-height: 30px !important;
+	font-size: 16px;
+	background-color: #f2f3f7;
+}
+
+#List-6 span.title i.fa {
+	line-height: 30px;
+}
+
+.feature-item-3 {
+	animation-duration: 3s;
+	animation-delay: 1.8s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1.8s;
+}
+
+#List-6 .col-4 {
+	background: url(../images/refine-bg-2x.png) no-repeat;
+	background-position: -52px 0;
+	background-size: 115px 150px;
+	position: relative;
+	z-index: 9;
+}
+
+#List-6 .item-1 {
+	padding: 16px 12px;
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	font-weight: 500;
+	line-height: 16px;
+	background-color: #Fff;
+}
+
+#List-6 .owl-carousel .owl-stage-outer {
+	overflow: visible !important;
+}
+
+#List-6 .dropdown-menu {
+	min-width: 414px !important;
+	min-height: 500px;
+	background: rgba(0, 0, 0, .3) !important;
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+#List-6 .SSS-1 {
+	position: absolute;
+	top: 105px;
+	left: 0;
+	background: rgba(0, 0, 0, .3);
+	right: 0;
+	min-height: 5100px;
+	display: none;
+	z-index: 999999999999999999999;
+}
+
+#Download-App {
+	animation: divert-show 260ms ease-in-out forwards;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	display: none;
+	left: 0;
+	z-index: 99999;
+	box-sizing: border-box;
+	padding: 0 16px 16px;
+	box-shadow: 0 -2px 2px rgba(0, 0, 0, .2);
+}
+
+#Download-App h5 {
+	margin: 9px 0 8px;
+}
+
+@
+keyframes fadeIn { 0% {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+}
+
+100%
+{
+-ms-filter
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+"
+progid
+
+
+
+
+
+
+:DXImageTransform
+
+
+
+
+
+
+.Microsoft
+
+
+
+
+
+
+.Alpha
+
+
+
+
+
+
+(
+Opacity
+
+
+
+
+=100)";
+opacity
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+1;
+}
+}
+@
+keyframes divert-show { 0% {
+	transform: translate3d(0, 100%, 0);
+}
+
+100%
+{
+transform
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+translate3d
+
+
+
+
+
+
+(0
+,
+0,0);
+}
+}
+.feature-item-1 {
+	animation-duration: 3s;
+	animation-delay: .6s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: .6s;
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.feature-item-2 {
+	animation-duration: 3s;
+	animation-delay: 1.2s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1.2s;
+}
+
+.feature-item-4 {
+	animation-duration: 3s;
+	animation-delay: 2.4s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 2.4s;
+}
+
+.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
+
+@
+keyframes fadeIn { 0% {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+
+100%
+{
+-ms-filter
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+"
+progid
+
+
+
+
+
+
+:DXImageTransform
+
+
+
+
+
+
+.Microsoft
+
+
+
+
+
+
+.Alpha
+
+
+
+
+
+
+(
+Opacity
+
+
+
+
+=100)";
+opacity
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+1;
+-webkit-transform
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+none
+
+
+
+
+
+
+;
+transform
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+none
+
+
+
+
+
+
+;
+}
+}
+.fadeInRight {
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+}
+
+@
+keyframes fadeInRight { 0% {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+	-webkit-transform: translate3d(100%, 0, 0);
+	transform: translate3d(100%, 0, 0);
+}
+
+100%
+{
+-ms-filter
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+"
+progid
+
+
+
+
+
+
+:DXImageTransform
+
+
+
+
+
+
+.Microsoft
+
+
+
+
+
+
+.Alpha
+
+
+
+
+
+
+(
+Opacity
+
+
+
+
+=100)";
+opacity
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+1;
+-webkit-transform
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+none
+
+
+
+
+
+
+;
+transform
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+none
+
+
+
+
+
+
+;
+}
+}
+.zoomIn {
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	backface-visibility: hidden;
+}
+
+@
+keyframes zoomIn { 0% {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+	-webkit-transform: scale3d(.3, .3, .3);
+	transform: scale3d(.3, .3, .3);
+}
+
+50%
+{
+-ms-filter
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+"
+progid
+
+
+
+
+
+
+:DXImageTransform
+
+
+
+
+
+
+.Microsoft
+
+
+
+
+
+
+.Alpha
+
+
+
+
+
+
+(
+Opacity
+
+
+
+
+=100)";
+opacity
+
+
+
+
+
+
+:
+
+
+
+ 
+
+
+
+1;
+}
+}
+.List-5 #fat-3 {
+	background-image: url(../images/img-35.png);
+}
+
+.List-5 #fat-3 .container {
+	padding: 171px 0px !important;
+}
+
+.List-5 #fat-3 .title {
+	margin-bottom: 17px;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 38px;
+}
+
+.List-5 #fat-3 form {
+	position: relative;
+}
+
+.List-5 #fat-3 input {
+	line-height: 60px;
+	width: 100%;
+	font-size: 16px;
+	padding-left: 18px;
+}
+
+.List-5 #fat-3  button {
+	width: 240px;
+	height: 65px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 24px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #ff6a00;
+	border-radius: 0 !important;
+}
+
+.List-5 #fat-4 .card-header span {
+	padding: 20px 0 5px;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.List-5 #fat-4 .card-header span.price {
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 72px;
+}
+
+.List-5 #fat-4 .card-header {
+	background-color: #E3E6ED;
+}
+
+.List-5 #fat-6 i.fa {
+	font-size: 20px;
+}
+
+.List-5 #fat-5 .carousel-item {
+	width: 100%;
+	height: 650px;
+	overflow: hidden;
+}
+
+.List-5 #fat-5 .carousel-item:nth-child(1) {
+	background-color: #B7C0C9;
+}
+
+.List-5 #fat-5 .carousel-item:nth-child(2) {
+	background-color: #D9CECA;
+}
+
+.List-5 #fat-5 .carousel-item.active .img-11 {
+	position: absolute;
+	top: 206px;
+	left: 30px;
+	z-index: 3;
+}
+
+.List-5 #fat-5 .carousel-item.active .img-112 {
+	position: absolute;
+	bottom: -224px;
+	left: 290px;
+}
+
+.List-5 #fat-5 .carousel-item.active .img-113 {
+	position: absolute;
+	top: 420px;
+	left: 234px;
+	z-index: 1;
+}
+
+.List-5 #fat-5 .name {
+	margin-bottom: 11px;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 38px;
+	margin-top: 48px;
+}
+
+.List-5 #fat-5 .industry {
+	margin-bottom: 23px;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.List-5 #fat-5 .carousel-item img.img-11 {
+	transform: rotate(0deg) translate3d(0px, 130px, 0px);
+	transition: all 1000ms ease;
+}
+
+.List-5 #fat-5 .carousel-item img.img-112 {
+	transform: rotate(0deg) translate3d(0px, 162px, 0px);
+	transition: all 1000ms ease;
+}
+
+.List-5 #fat-5 .carousel-item img.img-113 {
+	transform: rotate(0deg) translate3d(0px, 217px, 0px);
+	transition: all 1000ms ease;
+}
+
+.List-5 #fat-5 .carousel-item.active .transform-0 {
+	transform: rotate(0deg) translate3d(0px, 0px, 0px);
+}
+
+.List-5 #fat-5 .carousel-item img {
+	transition: all 1000ms ease;
+}
+
+.List-5 #fat-5 .carousel-item.active .img-114 {
+	position: absolute;
+	top: 85px;
+	left: 68px;
+}
+
+.List-5 #fat-5 .carousel-item.active .img-115 {
+	position: absolute;
+	left: 40px;
+	top: 172px;
+}
+
+.List-5 #fat-5 .carousel-item.active .img-116 {
+	position: absolute;
+	top: 345px;
+	left: 474px;
+}
+
+.List-5 #fat-5 .carousel-item.active .img-117 {
+	position: absolute;
+	top: 450px;
+	left: -60px;
+}
+
+.List-5 #fat-5 .carousel-item .transform-1 {
+	transform: rotate(334deg) translate3d(260px, 0px, 0px);
+}
+
+.List-5 #fat-5 .carousel-item .transform-2 {
+	transform: rotate(18deg) translate3d(0px, 0px, 160px);
+}
+
+.List-5 #fat-5 .carousel-item.active .transform-1 {
+	transform: rotate(334deg) translate3d(0px, 0px, 0px);
+}
+
+.List-5 #fat-5 .carousel-item.active .transform-2 {
+	transform: rotate(18deg) translate3d(0px, 0px, 0px);
+}
+
+.fixed-top4 {
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	z-index: 999;
+	background: #fff;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .32);
+}
+
+.List-5 .L-1.row {
+	display: none;
+}
+
+#List-4 .L-1 {
+	display: none;
+}

@@ -1,0 +1,8 @@
+{
+  "css": [
+    "css/select2.min.css"
+  ],
+  "js": [
+    "js/select2.min.js"
+  ]
+}

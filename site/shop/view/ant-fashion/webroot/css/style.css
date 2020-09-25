@@ -1,0 +1,464 @@
+/** << ======================================^^^=================================== >> */
+/**                                         GLOBAL                                     */
+/** << ======================================***=================================== >> */
+body{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+ font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2 {
+    font-size: 25px;
+    line-height: 34px;
+}
+a, .text-link {
+        color: #333;
+    text-decoration: none;
+}
+a{
+        transition: all 150ms ease-in-out;
+}
+a:hover{
+       color: #f8452d;
+       text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+button{
+    background-color: transparent;
+    border: transparent;
+}
+.cl-red{
+    color: red !important;
+}
+.breadcrumb{
+    background:transparent;
+    padding:5px 1rem;
+}
+#S-9 aside{
+        background-color: #fbfbfb;
+}
+#S-9 aside h2{
+        margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #222;
+    font-size: 18px;
+}
+/** << ======================================^^^=================================== >> */
+/**                                        HEADER                                      */
+/** << ======================================***=================================== >> */
+header .top{
+        border-bottom: 1px solid #eee;
+    padding: 7px 0;
+}
+header .center{
+    padding: 10px 0;
+}
+
+header .hotline img{
+    max-width: 35px;
+    vertical-align: top;
+}
+header .hotline span{
+    color: #000;
+    font-size: 12px;
+    line-height: 1.5;
+}
+header .hotline span.text-1{
+            color: #b6b6b6;
+}
+header .hotline:nth-child(1){
+        border-right: 1px solid #e8e8e8;
+}
+header .search form{
+    position: relative;
+}
+header .search input{
+    border: 1px solid #eee;
+    border-radius: 25px;
+    padding: 5px 10px;
+    width: 100%;
+}
+header .search button{
+    position: absolute;
+    right: 10px;
+    top: -3px;
+}
+.pos-rel{
+    position: relative !important;
+}
+header .menu .nav-item .nav-link{
+        text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 32px;
+        padding: 10px 15px;
+}
+header .menu .nav-item.active .nav-link {
+    color: #e81854;
+}
+header .menu .nav-item:hover .dropdown-menu{
+    display: block;
+}
+header .menu .dropdown-menu{
+        margin-top: 0px;
+    border: 1px solid #efefef;
+    background: #fff;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.18);
+}
+header .menu .nav-item:hover .nav-link{
+        background-color: #eee;
+        color: #e81854 !important;
+}
+header .center button.open i{
+        font-size: 25px;
+}
+#menu-mobi{
+        width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+    display: none;
+}
+.bdb{
+    border-bottom:1px solid #ccc;
+    padding-bottom: 20px;
+}
+#menu-mobi .wrapper{
+    width: 70%;
+    height: 100%;
+        background: #31373d;
+}
+#menu-mobi .wrapper .close{
+    position: absolute;
+    right: 0;
+}
+.account{
+        background: rgba(0,0,0,0.2);
+    padding: 10px 0;
+    color: #fff;
+}
+.account i{
+    font-size: 50px;
+}
+.account a{
+    color: #fff;
+}
+.list-menu li a{
+    color: #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    padding-right: 20px;
+    white-space: inherit;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+/** << ======================================^^^=================================== >> */
+/**                                         MAIN                                       */
+/** << ======================================***=================================== >> */
+.S-1 h2.title{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+.S-1 h2.title:before{
+    content: "";
+       background: #efa7a7;
+    height: 4px;
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    top: 50%;
+    z-index: 3
+}
+.S-1 h2.title:after{
+    content: "";
+       background: #bfb4b4;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    z-index: 2;
+}
+.S-1 h2.title span{
+    background: #fff;
+    position: relative;
+    padding: 0 10px;
+    z-index: 4;
+    display:inline-block;
+}
+#S-4 h2.title span{
+    background: #f8f8f8;
+}
+.S-1 .info .name{
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 10px;
+}
+.S-1 .info span{
+        font-size: 16px;
+    color: #222;
+}
+.S-1 .info span.old-price{
+        color: #cecece;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.S-1 .actions{
+    position: absolute;
+    bottom: 52px;
+    background: rgba(255,255,255,0.7);
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+    transform: translateY(100%);
+    padding: 10px 0;
+    text-align: center;
+}
+.S-1 .actions a{
+    background-color: #4dabce;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.S-1 .item:hover .actions{
+    opacity: 1;
+    transform: translateY(-110%);
+}
+.S-1 .item:hover .name a{
+    color: red;
+}
+.S-1 .item .sale{
+        position: absolute;
+    font-size: .92857em;
+    color: #FFF;
+    width: 45px;
+    height: 25px;
+    line-height: 25px;
+    top: 10px;
+    left: 0;
+    text-align: center;
+    z-index: 99;
+    text-transform: uppercase;
+        background-color: #e81854;
+}
+#S-1{
+    position: relative;
+    overflow: hidden;
+}
+#S-1 .owl-theme .owl-nav [class*=owl-]{
+        position: absolute;
+    top: 30%;
+    display: none;
+    transition: all 0.45s ease;
+}
+#S-1 .owl-theme .owl-nav [class*=owl-next]{
+    right: -8px;
+}
+#S-1  .owl-theme:hover .owl-nav [class*=owl-]{
+    display: block;
+}
+#S-1 .owl-theme .owl-nav [class*=owl-prev]{
+    left: -8px;
+}
+#S-2 a{
+    position: relative;
+}
+#S-2 .text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2.2em;
+}
+#S-2 .text .des{
+        display: inline-block;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    margin: 0 0 .6em;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+        transform: scaleX(1) scaleY(1) scaleZ(1) translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    will-change: transform;
+
+}
+#S-2 .items:hover .text .des{
+transform:translateX(1.94286px) translateY(-7.25775px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+#S-2 .text h3{
+        margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    color: #fff;
+}
+#S-3 .support{
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    height: 100%;
+}
+#S-3 .support .avt{
+}
+#S-4{
+        background-color: #f8f8f8;
+    padding: 10px 0;
+}
+#S-5{
+    background:url(../images/DN-40-buc-anh-dep-nhat-the-gioi-2017-Tin-020118-3.jpg) no-repeat;
+        background-size: 100%;
+        color: #8e8e6f;
+}
+.bdt{
+    border-top:1px solid #ccc;
+}
+#S-9 .sale{
+    left: 15px;
+}
+#S-9  span{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#S-9 aside .content{
+    padding:  0 10px;
+}
+#S-9 aside .content .title{
+        margin: 0;
+    color: #e81854;
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: bold;
+}
+#S-9 aside .content ul{
+    max-height: 140px;
+    overflow: auto;
+}
+#S-9 aside.cate{
+        border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 15px;
+    background: #fff;
+}
+#S-9 aside.cate .title{
+        font-weight: 500;
+    margin: 0;
+    color: #222;
+    font-size: 18px;
+    display: block;
+    border-bottom: 1px solid #f8f8f8;
+}
+#S-9 aside.cate ul li{
+    position: relative;
+    clear: left;
+    font-size: 1.07143em;
+}
+#S-9 aside.cate ul li a{
+        font-size: 14px;
+            padding: 5px 15px;
+    padding-left: 0;
+    color: #222;
+    display: block;
+        border-bottom: 1px solid #f8f8f8;
+}
+#S-9 aside.cate ul li:last-child a{
+    border-bottom:none;
+}
+#S-9 .item{
+    box-shadow: 0 0 0 1px #ccc;
+    margin-bottom: 20px;
+    position: relative;
+}
+a.img-1 {
+    transition: all 150ms ease-in-out;
+}
+a.img-1:hover:before {
+    right: 50%;
+    left: 50%;
+    width: 0;
+    background: rgba(255,255,255,0.3);
+}
+
+a.img-1:before, a.img-1:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+a.img-1:hover:after {
+    height: 0;
+    top: 50%;
+    bottom: 50%;
+    background: rgba(255,255,255,0.3);
+}
+/** << ======================================^^^=================================== >> */
+/**                                        FOOTER                                      */
+/** << ======================================***=================================== >> */
+footer{
+        background-color: #222;
+    color: #fff
+}
+footer h4{
+        padding-top: 0;
+    color: #e81854;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+footer ul{
+        margin-bottom: 15px;
+    line-height: 1.71429em;
+}
+footer ul li a{
+    color: #fff;
+}
+@media only screen and (max-width: 800px) {
+    header{
+        box-shadow: 0 0 10px 0px #ccc;
+    }
+    #main{
+        margin-top: 5px;
+    }
+    }
+@media only screen and (max-width: 500px) {
+   #S-5{
+    background-size: auto;
+   }
+   header .top{
+    text-align: center;
+   }
+}

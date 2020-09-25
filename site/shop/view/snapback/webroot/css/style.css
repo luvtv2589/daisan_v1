@@ -1,0 +1,394 @@
+/** << ======================================^^^=================================== >> */
+/**                                         GLOBAL                                     */
+/** << ======================================***=================================== >> */
+body{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+ font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2 {
+    font-size: 25px;
+    line-height: 34px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.zoom-in{
+    transition: transform ease .3s;
+}
+.zoom-in:hover {
+    transform: scale(1.02);
+}
+button{
+    border-radius:0 !important;
+}
+a.img-1 {
+    transition: all 150ms ease-in-out;
+}
+a.img-1:hover:before {
+    right: 50%;
+    left: 50%;
+    width: 0;
+    background: rgba(255,255,255,0.3);
+}
+
+a.img-1:before, a.img-1:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+a.img-1:hover:after {
+    height: 0;
+    top: 50%;
+    bottom: 50%;
+    background: rgba(255,255,255,0.3);
+}
+/** << ======================================^^^=================================== >> */
+/**                                        HEADER                                      */
+/** << ======================================***=================================== >> */
+header .top{
+    background: #c6c5d0 url(../images/bg-header.png) no-repeat 20px 0px !important;
+}
+.container{
+    max-width: 1200px;
+}
+header .logo img{
+    display: block;
+    margin: 0px auto;
+}
+header .banner-top img {
+    margin-top: 40px;
+}
+header .phone{
+    padding: 5px 0px;
+    font-size: 26px;
+}
+header .phone a{
+    color: black;
+}
+.cl-red{
+    color:Red;
+}
+header .search{
+    position: relative;
+}
+header .search input{
+    line-height: 40px;
+    width: 100%;
+    border: none;
+    padding: 0px 10px;
+}
+header .search button{
+    position: absolute;
+    line-height: 40px;
+    top: 0px;
+    height: 100%;
+    border:none;
+    width: 46px;
+    background: url(../images/bt-search.png);
+    right: 0%;
+}
+header .menu{
+    background: #35A535;
+}
+header .menu .nav-item{
+    line-height: 36px;
+    padding: 0 15px;
+    float: left;
+    text-transform: uppercase;
+    border-right: 1px solid rgb(23, 134, 23) !important;
+}
+header .menu .nav-item:hover .dropdown-menu{
+    display:block;
+}
+header .menu .nav-item:hover,.dropdown-menu a:hover{
+background: #390023;
+}
+header .menu .nav-link,.dropdown-menu a{
+    font-weight: bold;
+    color: #fff !important;
+    transition: all 0.5s ease;
+    font-size: 16px;
+}
+.dropdown-menu{
+    border-radius: 0!important;
+    margin-top: -1px;
+    background: #35A535;
+    padding: 0;
+}
+.dropdown-menu a{
+    border-top: 1px solid rgb(57, 185, 57);
+    border-bottom: 1px solid rgb(23, 134, 23) !important;
+}
+/** << ======================================^^^=================================== >> */
+/**                                         MAIN                                       */
+/** << ======================================***=================================== >> */
+
+#S-2{
+    padding-bottom: 50px;
+    background: url(../images/hl_featured.png);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) inset;
+}
+.S-2 .list-pro{
+    background: #fff;
+    position: relative;
+    z-index: 999;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.S-2 .list-pro .wrapper{
+    border: 6px solid transparent;
+    border-image: linear-gradient(to left, #0CC60C 0%, #80ED75 100%);
+    border-image-slice: 1;
+}
+.S-2 .list-pro .info{
+    text-align: center;
+    margin-bottom: 30px !important;
+    position: relative;
+}
+.S-2 .list-pro .icon{
+    height: 60px;
+    width: 60px;
+    background: rgb(225, 239, 231);
+    border-radius: 50%;
+    border: 10px solid #fff;
+    margin: -20px auto 12px auto;
+    text-align: center;
+    line-height: 37px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    transform: rotate(0deg);
+}
+.ng-bloe{
+    background: #000;
+}
+.S-2 img{
+    height: 258px;
+}
+.S-2 .list-pro .icon a{
+    padding: 10px;
+    position: relative;
+    z-index: 999999;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.S-2 .list-pro .info h2{
+    text-align: center;
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    white-space: nowrap;
+        overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.S-2 .list-pro .info h2 svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.S-2 .list-pro .info h2 svg line {
+    stroke-width: 2;
+    fill: none;
+    stroke-dasharray: 200;
+    -webkit-transition: all .6s;
+    transition: transform .6s;
+    stroke: #DAD1D1;
+}
+.S-2 .list-pro .info h2 a{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.S-2 .slogan h2{
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border: 4px solid #E5AA04;
+    color: #810020;
+    text-shadow: 0 0 1px #999;
+}
+.S-3 .title{
+    padding: 25px 0;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.6);
+}
+.S-3 .title span{
+    padding-right: 15px;
+    color: rgba(0,105,46,1);
+    position: relative;
+}
+.S-3 .title span.cl-1{
+    color: #0CC60C;
+}
+.S-3 .line-1{
+    width: 250px;
+    height: 2px;
+    margin: 0px auto;
+    background: #0CC60C;
+}
+.S-3 .line-2{
+    width: 80px;
+    height: 5px;
+    background: #0CC60C;
+    margin: 0 auto;
+}
+#S-3 p{
+    line-height: 30px!important;
+    font-size: 12px;
+    font-family: "UTM Swiss Condensed",Arial;
+    padding: 10px;
+    text-align: justify!important;
+}
+#S-4{
+    padding-bottom: 50px;
+    background: url(../images/hl_featured.png);
+}
+.S-4 .title{
+    padding: 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.6);
+}
+#S-4 span.name{
+    display: block;
+    text-align: center;
+    padding:25px 0;
+    color:#333;
+}
+#S-4 span.name h3{
+        font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+#S-4 .card{
+    border-radius: 0;
+    padding: 0;
+}
+#S-4 img{
+    height: 168px;
+}
+#S-5{
+    background-image: url(../images/banner.jpg);
+    background-position: fixed top;
+    position: relative;
+}
+
+#S-5 .title{
+    color: #fff;
+}
+#S-5 .mask{
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f9efef;
+    opacity: 0.4;
+}
+#S-6 .list-pro{
+    margin-top: 10px;
+}
+#S-6 .list-pro .wrapper{
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.1)
+}
+#S-6 .avt{
+    border-bottom: 2px solid green;
+    position: relative;
+}
+#S-6 .sup{
+    position: absolute;
+    z-index: 11;
+    background: rgba(0,0,0,0.5);
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+}
+#S-6 .sup a{
+    display: inline-block;
+    padding-top: 40%;
+}
+#S-6 .sup a i{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid green;
+    color: red;
+}
+#S-6 .list-pro .wrapper:hover .sup{
+    top: 0;
+}
+.breadcrumb{
+    background: transparent;
+}
+.breadcrumb a{
+    color: #000;
+}
+#S-7{
+    background: url(../images/hl_featured.png);
+    padding: 25px 0;
+    font-size: 30px;
+}
+#S-7 h1{
+    font-size: 28px;
+    line-height: 36px;
+}
+#S-6 .price{
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.1)
+}
+#S-6 .price.card{
+    border-radius: 0;
+}
+
+/** << ======================================^^^=================================== >> */
+/**                                        FOOTER                                      */
+/** << ======================================***=================================== >> */
+footer {
+    background: url(../images/bg_footer.png);
+}
+footer h4.title{
+    padding: 25px 0 10px 10px;
+    font-family: "UTM Akashi", Arial;
+    color: #fff;
+    text-transform: uppercase;
+}
+footer ul li {
+    padding: 5px 10px 3px 10px;
+    background: url(../images/icon_t.png) 0px 12px no-repeat;
+    color: #e0bd9e;
+}
+footer ul li a {
+    color: #999;
+}
+@media only screen and (max-width: 1050px) {
+    .S-2 .list-pro .info h2 a{
+        padding: 0;
+    }
+}

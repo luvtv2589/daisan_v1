@@ -1,0 +1,4 @@
+SELECT a.id,a.name,a.created
+				FROM products a WHERE 1=1 AND a.taxonomy_id IN (SELECT id FROM taxonomy WHERE type='product'
+                AND (lft BETWEEN (SELECT lft FROM taxonomy WHERE id=10) AND (SELECT rgt FROM taxonomy WHERE id=10))
+                ORDER BY lft) ORDER BY a.created DESC

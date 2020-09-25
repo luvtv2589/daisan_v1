@@ -1,0 +1,385 @@
+@media ( min-width : 1200px) {
+	.container {
+		max-width: 1140px;
+		width: 100%;
+	}
+}
+@media (min-width: 1700px){
+#aboutus .sliderWrap, #aboutus #introduce, #aboutus #service, #aboutus #contact, #post .slider_post {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.red:hover{color:#eb0511!important;transition:0.1s all;}
+.orange:hover{color:#ef6a16!important;transition:0.1s all;}
+a{color:#4a4a4a}
+a:hover{text-decoration: none}
+.btn:focus{
+	box-shadow:0 0 0 0!important;
+}
+.loading-spin{
+	background:white;
+	position: fixed;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+.loading-spin span{
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 99;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top:45%;
+  left:45%;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.aboutMenu ul li a.active,.aboutMenu ul li a:hover{
+	background-color: #3498db;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    color:#fff!important;
+}
+
+.aboutMenu ul li a{
+	-webkit-transform: skewX(-15deg);
+	-ms-transform: skewX(-15deg);
+	transform: skewX(-15deg);
+}
+
+.aboutMenu ul li span {
+	text-transform:uppercase;
+	display: inline-block;
+	-webkit-transform: skew(15deg);
+	-ms-transform: skew(15deg);
+	transform: skew(15deg);
+	font-weight: 600;
+	font-size:14px;
+}
+
+.next-slider,.prev-slider{
+	position: absolute;
+	top:43%;
+}
+
+.next-slider{
+	right: 15px;
+}
+
+.prev-slider{
+	left:15px;
+}
+
+#carouselFAQ .carousel-control-prev,#carouselFAQ .carousel-control-next{
+	top:100%;
+	width:50px;
+	height:30px;	
+	color:black;
+	border:1px solid #ccc;
+}
+
+#carouselFAQ .carousel-control-prev{
+	left:80%
+}
+
+.card-deck .card:hover {
+	box-shadow: 0 0 10px 1px rgba(76, 76, 76, .41);
+}
+
+.card-deck .itemImg,.card-deck .card{
+	overflow:hidden;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#ourteam img:hover {
+-webkit-animation: fade-in .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.card-deck .itemImg img:hover {
+	transform: scale(1.1);
+	transition: 0.7s all;
+	overflow: hidden;
+}
+
+#aboutmenu_mobile {
+	display: none;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #f2f2f2;
+	opacity: 1;
+}
+
+#introduce .col-xl-7 h3{color:#15cdea!important}
+#service .col-xl-7 h1{color:#fd8f4e!important;}
+#service .col-xl-7 h3{color:#ca96f9!important;}
+#aboutus .imgpart1, #aboutus .imgpart2, #aboutus .imgpart3, #aboutus .imgpart4
+{
+	width: 100%;
+	height: 300px;
+}
+#aboutus .imgpart1{
+	background:url(../images/yearfounded.png) top center no-repeat;
+}
+#aboutus .imgpart2{
+	background:url(../images/mission.png) top center no-repeat;
+}
+#aboutus .imgpart3{
+	background:url(../images/sourcing.png) top center no-repeat;
+}
+#aboutus .imgpart4{
+	background:url(../images/anywhere.png) top center no-repeat;
+}
+#homeinfo{
+	background: rgba(2, 27, 69, 0.95);
+    color: #666;
+    padding: 60px 0;
+}
+#homeinfo .contact_text{color: #fff}
+#homeinfo a {
+color: #fff
+}
+#homeinfo a.link-brown {
+    font-weight: 600;
+    text-decoration: underline;
+}
+#homeinfo a.btn {
+    color: #fff;
+}
+#homeinfo p{padding-left: 35px}
+/* FOR CONTACT */
+.call_cart{
+	background-image:url(../images/call_cart.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.call_sale{
+	background-image:url(../images/call_sale.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.call_order{
+	background-image:url(../images/call_order.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.call_support{
+	background-image:url(../images/call_support.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* FOR SERVICE */
+.service_register{
+	background-image:url(../images/service_register.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 300px;
+}
+.service_post{
+	background-image:url(../images/service_post.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 300px;
+}
+.service_order{
+	background-image:url(../images/service_order.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 300px;
+}
+.service_transport{
+	background-image:url(../images/service_transport.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 300px;
+}
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+/* ---- particles.js container ---- */
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('../images/bg-contact.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.accessibility {
+	position: fixed;
+	top: 65%;
+	right: 15px;
+	z-index: 9;
+}
+.helpdesk-online a{
+	   -webkit-animation: shake-lr 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-lr 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation-iteration-count:infinite;
+}
+@-webkit-keyframes shake-lr {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  10% {
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  80% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  90% {
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+  }
+}
+@keyframes shake-lr {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  10% {
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  80% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  90% {
+    -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+  }
+}
+.helpdesk-online div{
+	position: absolute;
+	animation: pulse-call 1.5s linear infinite;
+	top:0;
+	left:0;
+	right:0;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	z-index: -1;
+}
+.helpdesk-online div:nth-child(2){
+	animation-delay:-0.5s;
+}
+@-webkit-keyframes pulse-call {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+      -webkit-box-shadow: 0 0 0 10px rgba(40, 167, 69, 0.21);
+      -webkit-transform: scale(1.1);
+            transform: scale(1);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgb(77, 167, 69);
+      -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulse-call {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+        -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+      -moz-box-shadow: 0 0 0 10px rgba(40, 167, 69, 0.21);
+       box-shadow: 0 0 0 10px rgba(40, 167, 69, 0.21);
+       -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgb(77, 167, 69);
+      box-shadow: 0 0 0 0 rgb(77, 167, 69);
+      -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.accessibility .btn{width: 45px!important;height: 45px!important}
+
+.accessibility .feedback-area img {
+	-webkit-filter: brightness(0) invert(20);
+	filter: brightness(0) invert(20);
+}
+
+.accessibility button:hover{
+	background: red;
+	border-color: red;
+}
+.accessibility .back-to-top{
+	display: none;
+}

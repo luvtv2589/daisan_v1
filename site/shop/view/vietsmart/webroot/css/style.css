@@ -1,0 +1,133 @@
+/** << ======================================^^^=================================== >> */
+/**                                         GLOBAL                                     */
+/** << ======================================***=================================== >> */
+body{
+	background: #f2f4f7;
+}
+
+/** << ======================================^^^=================================== >> */
+/**                                        HEADER                                      */
+/** << ======================================***=================================== >> */
+header{background: #fff;}
+header h1{
+	font-size: 20px;
+}
+#head-top{
+	background: #f4f5f9;
+	min-height: 30px;
+	color: #666;
+}
+#head-top ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#head-top li{
+	display: inline-block;
+}
+#head-top li a{
+	color: #666;
+	display: block;
+	font-size: 0.85rem;
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+	line-height: 1.25em;
+	margin-left: 5px;
+}
+#head-top li:last-child a{
+	border: none;
+}
+#head-top span{
+	display: inline-block;
+	line-height: 30px;
+}
+
+#head-hotline h5, #head-hotline h5 a{
+	font-size: 17px;
+	color: #666;
+}
+#head-hotline h4, #head-hotline h4 a{
+	font-size: 18px;
+	color: #dc5543;
+}
+#menu{
+	border-top: 1px solid #f1f3f6;
+	border-bottom: 1px solid #666;
+	position: relative;
+	background: #232323;
+}
+#menu li>a{
+	padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    border-left: 1px solid #666;
+    color: #fff;
+}
+#menu li>a:hover{
+	background: #454545;
+}
+.navbar{
+	padding: 0;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+/** << ======================================^^^=================================== >> */
+/**                                         MAIN                                       */
+/** << ======================================***=================================== >> */
+#main{
+	min-height: 80vh;
+	background: #f2f4f7;
+}
+
+#services .card-title a{
+	color: #565555;
+	display: block;
+	line-height: 1.4rem;
+	height: 2.8rem;
+	overflow: hidden;
+}
+#services .price{
+	color: #e91e63;
+	font-weight: bold;
+}
+#services .desc{
+	line-height: 1.25rem;
+	height: 2.5rem;
+	overflow: hidden;
+}
+#services img{
+	-webkit-transition: ease .2s;
+    transition: ease .2s;
+    width: 100%;
+}
+#services .card:hover{
+	box-shadow: 0px 0px 10px 3px #ccc;
+}
+#services .card:hover img{
+	transform: scale(1.22);
+    filter: contrast(80%) brightness(110%);
+}
+
+.supporter:hover .avatar{
+	box-shadow: 0px 0px 10px 3px #ccc;
+}
+/** << ======================================^^^=================================== >> */
+/**                                        FOOTER                                      */
+/** << ======================================***=================================== >> */
+footer{
+	background: #333;
+	min-height: 10vh;
+	border-top: 1px solid #e3e7ee;
+	position: relative;
+	color: #fff;
+}
+footer a{
+	color: #fff;
+}
+
+#foot-btn{
+	border-top: 1px solid #666;
+	color: #ccc;
+}

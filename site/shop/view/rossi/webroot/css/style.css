@@ -1,0 +1,450 @@
+/** << ======================================^^^=================================== >> */
+/**                                         GLOBAL                                     */
+/** << ======================================***=================================== >> */
+body{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+ font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2 {
+    font-size: 25px;
+    line-height: 34px;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover, a:focus {
+    color: #58b3f0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+button{
+    background-color: transparent;
+    border: transparent;
+}
+.cl-red{
+    color: red !important;
+}
+.breadcrumb{
+    background:transparent;
+    padding:5px 1rem;
+}
+a.img-1 {
+    transition: all 150ms ease-in-out;
+}
+a.img-1:hover:before {
+    right: 50%;
+    left: 50%;
+    width: 0;
+    background: rgba(255,255,255,0.3);
+}
+
+a.img-1:before, a.img-1:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+a.img-1:hover:after {
+    height: 0;
+    top: 50%;
+    bottom: 50%;
+    background: rgba(255,255,255,0.3);
+}
+/** << ======================================^^^=================================== >> */
+/**                                        HEADER                                      */
+/** << ======================================***=================================== >> */
+header .top{
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
+}
+header .logo{
+    padding: 10px 0;
+}
+header .top .icon{
+    display: inline-block;
+    background: #58B3F0;
+    color: #fff;
+    border-radius:50%;
+    padding:5px 10px;
+}
+header .top  i.fa{
+    font-size: 25px;
+}
+header .search{
+    position: relative;
+}
+header .search:hover form{
+    display: block;
+}
+header .top form{
+    display: none;
+}
+header .top input{
+       font-size: 14px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    position: absolute;
+    top: 0px;
+    left: -210px;
+    display: none;
+    width: 250px;
+}
+header .top .search:hover input{
+    display: block;
+}
+header .cart{
+    position: relative;
+}
+header .cart .cart-count{
+        background: #ff6517;
+    color: #fff;
+    padding: 0px 6px;
+    border-radius: 100%;
+    position: absolute;
+    left: 18px;
+    font-size: 12px;
+    line-height: 20px;
+    top: -7px;
+}
+header .menu  .nav-link{
+        line-height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    transition: all .25s ease;
+    min-width: 80px;
+    font-weight: 400;
+    padding: 15px;
+}
+header .menu .nav-item:hover .dropdown-menu{
+    display: block;
+}
+header .menu .dropdown-menu{
+        border: none;
+    border-radius: 0;
+    margin-top: 0;
+}
+#menu-mobi{
+        width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+    display: none;
+}
+.bdb{
+    border-bottom:1px solid #ccc;
+    padding-bottom: 20px;
+}
+#menu-mobi .wrapper{
+    width: 70%;
+    height: 100%;
+        background: #31373d;
+        position: relative;
+
+}
+#menu-mobi .wrapper .fa-times{
+    color: #fff;
+}
+#menu-mobi .wrapper .close{
+    position: absolute;
+    right: 0;
+}
+.account{
+        background: rgba(0,0,0,0.2);
+    padding: 10px 0;
+    color: #fff;
+}
+.account i{
+    font-size: 50px;
+}
+.account a{
+    color: #fff;
+}
+#menu-mobi  .list-menu li a{
+    color: #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    padding-right: 20px;
+    white-space: inherit;
+}
+#menu-mobi  ul.sub{
+    display: none;
+}
+#menu-mobi  .list-menu li:hover ul.sub{
+    display: block;
+}
+/** << ======================================^^^=================================== >> */
+/**                                         MAIN                                       */
+/** << ======================================***=================================== >> */
+#S-1 .title{
+        text-transform: uppercase;
+        font-weight: 500;
+}
+#S-1  .des{
+        color: #787878;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.S-2 .title .wrap-content{
+        display: inline-block;
+    background: #fff;
+    padding: 0 15px;
+}
+.S-2 .title .wrap-content h2{
+        margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+}
+.S-2 .title .wrap-content span{
+     text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    color: #9c9c9c;
+    margin-top: 10px;
+
+}
+.S-2 .title:before,.S-2 .title:after{
+        content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #333;
+    color: black;
+    z-index: -1;
+}
+.S-2 .title:before{
+    top: 15px;
+}
+.S-2 .title:after{
+    top: 20px;
+}
+#S-2 img{
+    transition: all 0.2s ease-in-out;
+    display: block;
+    height: 188px;
+}
+#S-2 img:hover{
+     box-shadow: 0px 5px 5px #989797;
+    transform: translate(0px,-3px);
+}
+.S-2 .item{
+    position: relative;
+}
+/*.S-2 img{
+    height: 255px;
+}*/
+.S-2 .item  h3.name a{
+    padding: 10px;
+    color: #333333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    margin: 0;
+}
+.S-2 .item .price {
+        font-size: 15px;
+    color: #b2008d;
+    padding: 0 10px;
+}
+.S-2 .item .sale{
+        position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #d80027;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    font-size: 12px;
+    padding: 9px 5px;
+    color: #fff
+}
+.S-2 .item .price-old{
+        color: #7d7d7d;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding: 0 10px;
+}
+.S-2 .avt{
+    position: relative;
+}
+.S-2 .avt button{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    display: none;
+}
+.S-2 .item:hover button{
+    display: block;
+}
+#S-4 h3{
+        font-size: 15px;
+    margin: 10px 0;
+    font-weight: 600;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+#S-4 span{
+        font-size: 14px;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+#S-5 img{
+    opacity: 0.3;
+}
+#S-5 img:hover{
+    opacity: 1;
+}
+#S-5 img{
+    height: auto;
+}
+.bread-crumb .breadcrumb-item:before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #6c757d;
+    content: ">";
+    font-weight: normal !important;
+}
+.bread-crumb .breadcrumb-item:nth-child(1):before{
+    content: "";
+}
+.bread-crumb .breadcrumb-item.active{
+    font-weight: bold;
+}
+#S-9 .filler .tit{
+        cursor: pointer;
+    position: relative;
+    margin-bottom: 0;
+}
+#S-9  h3{
+        margin: 0;
+    font-size: 18px;
+    padding: 15px;
+    background: #f9f9f9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#S-9 .filler .tit i{
+        position: absolute;
+    right: 10px;
+    top: 18px;
+}
+#S-9 .filler{
+    background: #f9f9f9;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transform: translate3d(0, 0, 0);
+    transition-duration: 200ms;
+}
+#S-9 .filler span.name{
+    font-weight: bold;
+}
+#S-9 .filler-box{
+        padding: 15px;
+    border-top: 1px solid #e7e7e7;
+}
+#S-9 .filler-box ul li{
+    position: relative;
+}
+#S-9 .filler-box ul li a{
+        display: block;
+    padding: 5px 0;
+    white-space: normal;
+    padding-right: 10px;
+}
+#S-9 .filler-box ul li a i{
+    top: 8px !important;
+        transform: translate3d(0, 0, 0);
+    transition-duration: 200ms;
+}
+#S-9 .filler-box ul li a img{
+    width: 80px;
+    height: 80px;
+}
+#S-9 .dropdown-menu{
+    transform:none !important;
+    position: relative !important;
+    border:none;
+    border-radius: 0;
+    background: transparent;
+}
+.filler-box ul li a[aria-expanded=true] > i:before {
+    content: "\f106";
+}
+/** << ======================================^^^=================================== >> */
+/**                                        FOOTER                                      */
+/** << ======================================***=================================== >> */
+footer{
+    background: #1c2632;
+    border-top: 1px solid #addef0;
+}
+footer h4{
+        font-size: 16px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+footer h4:after{
+        content: "";
+    height: 2px;
+    width: 40px;
+    background: #58b3f0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+footer ul li{
+        color: #fff;
+    opacity: 0.75;
+    padding: 5px 0;
+}
+footer ul li a{
+        font-size: 14px;
+    color: #fff;
+    opacity: 0.75;
+}
+@media only screen and (max-width: 800px) {
+  header .top input{
+        right: -6px;
+    z-index: 9999;
+        top: 0px;
+            width: 200px;
+  }
+  .S-2 .item h3.name a,.S-2 .item .price{
+    padding: 0;
+  }
+  #main{
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,297 @@
+/** << ======================================^^^=================================== >> */
+/**                                         GLOBAL                                     */
+/** << ======================================***=================================== >> */
+body{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+ font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.zoom-in{
+    transition: transform ease .3s;
+}
+.zoom-in:hover {
+    transform: scale(1.02);
+}
+.breadcrumb{
+    background-color: transparent;
+    padding-left: 15px;
+}
+a.img-1 {
+    transition: all 150ms ease-in-out;
+}
+a.img-1:hover:before {
+    right: 50%;
+    left: 50%;
+    width: 0;
+    background: rgba(255,255,255,0.3);
+}
+
+a.img-1:before, a.img-1:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+a.img-1:hover:after {
+    height: 0;
+    top: 50%;
+    bottom: 50%;
+    background: rgba(255,255,255,0.3);
+}
+/** << ======================================^^^=================================== >> */
+/**                                        HEADER                                      */
+/** << ======================================***=================================== >> */
+#header-top span{
+    color: white !important;
+}
+.inline-block {
+    display: inline-block;
+}
+#header-top .text-right ul li a ,#header-top .text-right ul li a span{
+    color: rgba(255,255,255,0.8) !important;
+}
+.no-wrap{
+    white-space: nowrap;
+}
+#header-top .text-right ul li:hover a,#header-top .text-right ul li:hover a span{
+    color: #fff !important;
+}
+.breadcrumb .breadcrumb-item a{
+    color: black;
+}
+#header-bot .cart{
+    padding: .6em;
+    border-radius: 5px;
+    background-color: #660707;
+}
+#header-bot .cart span.title{
+    font-weight: bold;
+}
+#header-bot .cart span.price{
+    font-size: 12px;
+    font-weight: normal;
+}
+.bg-white{
+    background: #fff;
+}
+
+#menu-main .navbar{
+    padding: 0;
+}
+#menu-main .nav-link{
+    color: #fff;
+    padding:16px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#menu-main .nav-item:hover .dropdown-menu{
+    display: block;
+}
+#menu-main .nav-item.active,#menu-main .nav-item:hover{
+    color: #FFF!important;
+    background-color: #4F4F4F;
+}
+#menu-main .dropdown-menu{
+    border-radius: 0 !important;
+    margin-top: 2px;
+}
+#menu-main .form-control{
+    border-radius: 2rem;
+    padding: 4px .75rem;
+    font-size: 14px;
+}
+.fz28{
+    font-size: 28px;
+}
+.menu-mobile{
+    background: transparent;
+    border:none
+}
+#menu-main .form-inline{
+    position: relative;
+}
+#menu-main .form-inline button{
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+}
+#S-6{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    top: 0;
+    z-index: 9999999;
+    transform: translateX(0);
+    transition: transform 0.5s;
+    opacity: 1;
+    display: none;
+}
+#S-6 .wrapper{
+    max-width: 65%;
+    background-color: rgba(255,255,255,0.95);
+    height: 100%;
+}
+#main-menu-mobile{
+    background-color: #fff;
+    position: relative;
+
+}
+#main-menu-mobile .search-form{
+    padding: 20px;
+}
+#main-menu-mobile .search-form form{
+    position: relative;
+}
+#main-menu-mobile .search-form input{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 100%;
+}
+#main-menu-mobile .search-form button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#main-menu-mobile .title {
+    font-size: 16px;
+    background: #53ac19;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+}
+#main-menu-mobile .list-menu li{
+    padding: 5px 10px;
+    border-bottom:1px solid #ccc;
+}
+#main-menu-mobile .list-menu li a{
+    padding:7px 20px 7px 0;
+    color: #000;
+}
+/** << ======================================^^^=================================== >> */
+/**                                         MAIN                                       */
+/** << ======================================***=================================== >> */
+.S-1 .sec-tit{
+    position: relative;
+}
+
+.S-1 .sec-tit:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    height: 2px;
+    background-color: #53ac19;
+    z-index: 1;
+}
+.S-1 .sec-tit span{
+    display: inline-block;
+    background: #fff;
+    z-index: 2;
+    position: relative;
+    padding: 0 15px;
+}
+.S-1 .sec-content .card-body h3.card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#S-11{
+    background: url(../images/banner-sup.jpg);
+    background-size:100%;
+        background-position:  top;
+         background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative; 
+}
+#S-11 .mask{
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background: rgb(0, 0, 0);
+    z-index: 1;
+}
+#S-11 .tit span{
+    font-size: 30px !important;
+}
+#S-11 .container{
+    position: relative;
+    z-index: 2;
+}
+.card{
+    overflow: hidden !important;
+}
+.cl-red{
+    color:red;
+}
+#S-2{
+    padding:20px 0;
+    background-color: rgb(83, 172, 25);
+}
+.cl-white{
+    color:#fff;
+}
+.cl-green{
+    color:#53ac19;
+}
+.navbar-collapse{
+    z-index: 99999;
+}
+/** << ======================================^^^=================================== >> */
+/**                                        FOOTER                                      */
+/** << ======================================***=================================== >> */
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(56, 56, 56);
+}
+footer ul li{
+    border-bottom: 1px solid #3c3c3c;
+    padding: 7px 0px 7px 15px;
+}
+footer ul li:hover a{
+    color:#53ac19;
+}
+@media only screen and (max-width: 800px) {
+    #header-bot .cart .title{
+        display: none !important;
+    }
+    #menu-main .navbar {
+        padding: .5rem 1rem;
+    }
+}
