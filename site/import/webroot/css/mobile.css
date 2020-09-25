@@ -1,0 +1,55 @@
+@media ( max-width :768px) {
+	.w-45 {
+		width: 45%
+	}
+	.list-view .frame-prod-card {
+		
+	}
+	.list-view .image-product {
+		width: 40%;
+	}
+	.list-view .infor-prod {
+		width: 60% !important;
+	}
+	.list-view .information-company {
+		width: 60% !important;
+		padding: 0px 15px;
+	}
+	.content-category .post-item .card-body {
+		height: 150px;
+	}
+	.content-category .post-item img.pro-img {
+		width: 100%;
+	}
+	.btn-sm-call {
+		background-color: #15746D;
+		background-image: linear-gradient(to right, #00a699, #15746D);
+	}
+	.btn-sm-contact {
+		background-color: #2F3394;
+		background-image: linear-gradient(to right, #5058BC, #2F3394);
+	}
+}
+
+}
+
+/* FOR BOTTOM PAGE */
+@media ( max-width :767px) {
+	#bottom_page {
+		position: fixed;
+		bottom: 0;
+		z-index: 9
+	}
+	#bottom_page .col-2-5 {
+		line-height: 0.8;
+	}
+	#bottom_page .link_active {
+		color: #fff908 !important;
+	}
+	.link_active i {
+		color: #fff908 !important;
+	}
+	#bottom_page_product img {
+		max-width: 25px;
+	}
+}

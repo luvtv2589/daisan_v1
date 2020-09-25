@@ -1,0 +1,129 @@
+/*CSS FOR LIST PRODUCT*/
+@media ( min-width : 1200px) {
+	.container {
+		max-width: 1230px;
+		margin-left: 30px;
+	}
+	a {
+		color: #1122CC;
+	}
+	header .logo img {
+		width: 150px
+	}
+}
+
+header {
+	padding-top: .75rem
+}
+
+header .search label {
+	font-size: 13px;
+	font-weight: bold
+}
+
+input[type=text], button[type=button] {
+	border-radius: 0;
+	font-size: 14px
+}
+
+header .head_right {
+	padding-right: 30px;
+	position: absolute;
+	right: 0;
+}
+
+header .head_right ul li a {
+	font-size: 13px;
+}
+
+.main .job_sidebar h3 {
+	font-size: 16px;
+}
+
+.main .job_sidebar ul {
+	margin-bottom: 20px
+}
+
+.main .job_sidebar ul li {
+	font-size: 14px;
+}
+
+.main .job_sidebar .filter ul li a {
+	color: #666;
+}
+
+.main .search_info {
+	font-size: 14px;
+}
+
+.main .search_info ul li a.active {
+	color: #000;
+	font-weight: bold;
+}
+
+.main .search_info ul li {
+	padding: 0 5px
+}
+
+.main .search_results ul li h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.main .search_results .job_info {
+	font-size: 15px;
+}
+
+.main .search_results ul li .location:before {
+	content: '-';
+	margin: 0 .5em;
+}
+
+.main .search_results ul li .job_meta {
+	color: #808080;
+	font-size: 13px;
+}
+
+.main .search_results ul li .job_meta .sponsor-label {
+	background: #fff;
+	border: 1px solid #808080;
+	border-radius: 2px;
+	display: inline-block;
+	line-height: 14px;
+	padding: 1px 3px;
+	font-size: 12px;
+	margin-right: 4px;
+}
+
+.main .job_right h3 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.main .job_right .consent-statement {
+	font-size: 13px;
+	color: #808080
+}
+
+@media only screen and (max-width:768px) {
+	.filter {
+		min-width: 280px;
+		max-width: 280px;
+		background: #ffffff;
+		border-right: 1px solid #ccc;
+		float: left;
+		transition: all 0.3s;
+		position: fixed;
+		top: 0;
+		right: -300px;
+		z-index: 99;
+		padding: 15px;
+		overflow-y:scroll; 
+	}
+	.filter.active {
+		right: 0;
+		overflow-y: scroll;
+		height: 100%
+	}
+}
